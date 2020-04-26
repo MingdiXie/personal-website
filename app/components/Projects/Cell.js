@@ -12,7 +12,7 @@ const Cell = ({ data }) => (
       </header>
       <a href={data.link} className="image">
         {/* <img src={url.resolve(BASE_PATH, data.image)} alt={data.title} /> */}
-        <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
+        <img src={`${BASE_PATH}${data.image}`} alt="" />
       </a>
       <div className="description">
         <p>{data.desc}</p>
