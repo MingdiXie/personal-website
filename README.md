@@ -1,2 +1,3 @@
 # Readme
 
+npm run deploy
