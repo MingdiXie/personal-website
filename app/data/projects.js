@@ -1,42 +1,50 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Mickey Mouse with C++',
+    subtitle: 'Computer Graphics',
+    link: 'https://github.com/MingdiXie/csc418project',
+    image: '/images/projects/mickey.png',
+    date: '2020-04',
+    desc: 'This project is based on ray-tracing in computer graphics, '
+      + 'perlin noise is implemented to enhance visual effects on the mickey mouse rock. '
   }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'Learning spanish website',
+    subtitle: 'Learning spanish website',
+    link: 'https://language-learning-heroku.herokuapp.com',
+    image: '/images/projects/learn.png',
+    date: '2020-04',
+    desc: 'Developed a ReactJS based application website where you could learn spanish. '
+     + 'Included a dictionary where you search up either English or Spanish and the user could '
+     + 'customize his own word library. Create an admin account to edit user’s information and store '
+     + 'it in MongoDB database using express framework.',
   }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'Emotion Detection and human segmentation',
+    subtitle: 'Emotion Detection and human segmentation',
+    link: 'https://github.com/MingdiXie/CSC420-Image-Understanding',
+    image: '/images/projects/portrait.png',
+    date: '2019-12',
+    desc: 'Built multiple neural network to detect human facial expressions. The convolutional neural '
+      + 'network achieved an 85.2% accuracy with residual connection. Generated human segmentation'
+      + 'using a pretrained U-net architecture and added gaussian blur to complete a portrait mode.',
   }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+    title: 'AI pacman',
+    subtitle: 'pacman',
+    link: 'https://github.com/MingdiXie/CSC384-Introduction-to-Artificial-Intelligence',
+    image: '/images/projects/pacman.png',
+    date: '2019-07',
+    desc: 'AI pacman makes moves based on self-created admissible heuristic to win the game without dying.'
+      + ' Model event into baysnet and update hidden markov model to count unknown event\'s probability. '
+  }, {
+    title: 'Minesweeper',
+    subtitle: 'Minesweeper',
+    link: 'https://github.com/MingdiXie/Minesweeper',
+    image: '/images/projects/phone.jpg',
+    date: '2018-12',
+    desc: 'Created a minesweeper Android Mobile game. Designed the game logic, '
+     + 'implemented UI and graphics with xml, and developed unit tests. '
+     + 'Refactored code with MVC and observer design pattern. Implemented '
+     + 'additional features such as sign up page and scoreboard. '
   },
 ];
 

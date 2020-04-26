@@ -13,12 +13,12 @@ const Nav = () => (
         <img src={`${BASE_PATH}/images/me_icon.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael.l.dangelo@gmail.com">michael.l.dangelo@gmail.com</a></p>
+        <h2>Mingdi Xie</h2>
+        <p><a href="mailto:xiemingdi@gmail.com">xiemingdi@gmail.com</a></p>
       </header>
     </section>
 
-    <section className="blurb">
+    {/* <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Michael. I like building things.
             I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
@@ -30,7 +30,7 @@ const Nav = () => (
           {window.location.pathname !== `${BASE_PATH}/resume` ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
-    </section>
+    </section> */}
 
     <section id="footer">
       <ul className="icons">
@@ -42,7 +42,9 @@ const Nav = () => (
           </li>
         ))}
       </ul>
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Mingdi Xie
+        {/* <Link to="/">mldangelo.com</Link>. */}
+      </p>
     </section>
   </section>
 );

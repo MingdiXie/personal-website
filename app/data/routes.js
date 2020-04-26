@@ -1,25 +1,25 @@
 const data = [
   {
     path: '/',
-    label: 'Michael D\'Angelo',
+    label: 'Mingdi Xie',
     index: true,
   },
-  {
-    path: '/about',
-    label: 'About',
-  },
+  // {
+  //   path: '/about',
+  //   label: 'About',
+  // },
   {
     path: '/resume',
-    label: 'Resume',
+    label: 'About me',
   },
   {
     path: '/projects',
     label: 'Projects',
   },
-  {
-    path: '/stats',
-    label: 'Stats',
-  },
+  // {
+  //   path: '/stats',
+  //   label: 'Stats',
+  // },
   {
     path: '/contact',
     label: 'Contact',
