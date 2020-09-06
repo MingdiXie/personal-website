@@ -1,9 +1,20 @@
 
 const positions = [
   {
+    company: 'Citigroup',
+    position: 'Software Development Analyst',
+    link: 'https://www.google.com',
+    daterange: '2020.07 — 2020.08',
+    points: [
+      'Analyze financial data with python and use Power BI for data visualization',
+      'Collaborate and work remotely across culture with Cloud Migration Plan',
+      'Build project in Jenkins using Pipeline and Blue Ocean'
+    ],
+  }, 
+  {
     company: 'Vision of Science',
     position: 'Facilitator',
-    link: 'https://arthena.com',
+    link: 'https://www.google.com',
     daterange: '2017.09 — 2018.01',
     points: [
       'Mentored a consistent youth group to create a positive learning environment',
@@ -13,7 +24,7 @@ const positions = [
   }, {
     company: 'Singapore Armed Forces',
     position: 'Infantry soldier',
-    link: 'http://enveritas.org',
+    link: 'https://www.google.com',
     daterange: '2015.08 — 2017.08',
     points: [
       'Self-motivated and highly disciplined, kept calm in handling fluid, high-stress situations',
