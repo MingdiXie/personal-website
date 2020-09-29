@@ -7,8 +7,8 @@ const positions = [
     daterange: '2020.07 — 2020.08',
     points: [
       'Analyze financial data with python and use Power BI for data visualization',
-      'Collaborate and work remotely across culture with Cloud Migration Plan',
-      'Build project in Jenkins using Pipeline and Blue Ocean'
+      'Implemented back-end code with JavaScript (Express) for a pension-saving project and created unit testing with JavaScript (Chai)',
+      'Experience in Jenkins for continuous integration to expedite software development'
     ],
   }, 
   {
